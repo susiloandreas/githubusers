@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">githubusers</string>
+    <string name="users">Users</string>
+    <string name="search">search by username</string>
+    <string name="profile">Profile</string>
+    <string name="repo">Repo</string>
+    <string name="recent_searches">Recent Searches</string>
+    <string name="fullname">Full name</string>
+    <string name="company">Company</string>
+    <string name="blog">Blog</string>
+    <string name="location">Location</string>
+    <string name="public_repos">Public repos</string>
+    <string name="public_gist">Public gist</string>
+    <string name="followers">Followers</string>
+    <string name="following">Following</string>
+    <string name="private_repos">Private repos</string>
+    <string name="qiuqiuqiu">888</string>
+
+
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/repo_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        style="@style/TextSmallBlack"
+        android:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/repo_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:ellipsize="end"
+        app:layout_constraintTop_toBottomOf="@+id/repo_name"
+        app:layout_constraintLeft_toLeftOf="parent"
+        style="@style/TextXSmallGray"
+        android:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/repo_updated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/repo_description"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:drawableLeft="@drawable/ic_calendar"
+        android:drawablePadding="@dimen/padding_5dp"
+        style="@style/TextXxxSmallGray"
+        android:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/repo_stargazers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/repo_description"
+        app:layout_constraintLeft_toRightOf="@+id/repo_updated"
+        android:layout_marginLeft="@dimen/padding_20dp"
+        android:drawableLeft="@drawable/ic_rate"
+        android:drawablePadding="@dimen/padding_5dp"
+        style="@style/TextXxxSmallGray"
+        android:text="@string/app_name" />
+
+
+    <TextView
+        android:id="@+id/repo_watchers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/repo_description"
+        app:layout_constraintLeft_toRightOf="@+id/repo_stargazers"
+        android:layout_marginLeft="@dimen/padding_20dp"
+        android:drawableLeft="@drawable/ic_profile"
+        android:drawablePadding="@dimen/padding_5dp"
+        style="@style/TextXxxSmallGray"
+        android:text="@string/app_name" />
+
+
+
+</android.support.constraint.ConstraintLayout>

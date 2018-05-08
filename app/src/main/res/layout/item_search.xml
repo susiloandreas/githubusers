@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/TextSmallBlack"
+    android:padding="@dimen/padding_5dp"
+    android:background="?attr/selectableItemBackground"
+    android:id="@+id/search_recent_search"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/app_name"
+     />
